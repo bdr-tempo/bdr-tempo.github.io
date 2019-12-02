@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>bdr-ru_ic_eco</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="icon">
+      <g>
+        <rect width="128" height="128" style="fill: none"/>
+        <path d="M88,62.61C87.06,39.39,64,24,64,24S40.94,39.39,40,62.61c0,.46,0,.92,0,1.39A24,24,0,0,0,62,87.91V56h4V87.91A24,24,0,0,0,88,64C88,63.53,88,63.07,88,62.61Z"/>
+        <rect x="62" y="88" width="4" height="16"/>
+      </g>
+    </g>
+  </g>
+</svg>

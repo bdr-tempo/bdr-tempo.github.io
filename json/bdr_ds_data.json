@@ -1,0 +1,289 @@
+{
+    "colors": {
+        "groups": [{
+            "name": "colors-cross-brand",
+            "colors": [{
+                "name": "grey-90",
+                "hex": "#3C3C3C",
+                "rgb": "rgb(60,60,60)"
+            }, {
+                "name": "grey-60",
+                "hex": "#5E5E5E",
+                "rgb": "rgb(94,94,94)"
+            }, {
+                "name": "grey-10",
+                "hex": "#F5F5F5",
+                "rgb": "rgb(245, 245, 245)"
+            }, {
+                "name": "blue",
+                "hex": "#1C90E7",
+                "rgb": "rgb(28, 144, 231)"
+            }, {
+                "name": "green",
+                "hex": "#0FBC80",
+                "rgb": "rgb(15, 188, 128)"
+            }, {
+                "name": "yellow",
+                "hex": "#FFC800",
+                "rgb": "rgb(255, 200, 0)"
+            }, {
+                "name": "red",
+                "hex": "#E73E17",
+                "rgb": "rgb(231, 62, 23)"
+            }]
+        }, {
+            "name": "colors-brand-specific",
+            "colors": [{
+                "name": "baxi-blue",
+                "hex": "#005b99",
+                "rgb": "rgb(0, 91, 153)"
+            }, {
+                "name": "brotje-grey",
+                "hex": "#333333",
+                "rgb": "rgb(51, 51, 51)"
+            }, {
+                "name": "chappee-red",
+                "hex": "#bc2d3c",
+                "rgb": "rgb(188, 45, 60)"
+            }, {
+                "name": "dedietrich-grey",
+                "hex": "#5d5d5d",
+                "rgb": "rgb(93, 93, 93)"
+            }, {
+                "name": "ecr-red",
+                "hex": "#e8112d",
+                "rgb": "rgb(232, 17, 45)"
+            }, {
+                "name": "oertli-red",
+                "hex": "#E30713",
+                "rgb": "rgb(227, 7, 19)"
+            }, {
+                "name": "remeha-yellow",
+                "hex": "#ffcf00",
+                "rgb": "rgb(255, 207, 0)"
+            }]
+        }]
+    },
+    "icons": {
+        "groups": [{
+            "name": "icons-basic",
+            "icons": [{
+                "name": "all-zones",
+                "url": "img/icons/icon_all_zones.svg"
+            }, {
+                "name": "anti-frost",
+                "url": "img/icons/icon_antifrost_v3.svg"
+            }, {
+                "name": "auto-mode",
+                "url": "img/icons/icon_auto_mode.svg"
+            }, {
+                "name": "basement",
+                "url": "img/icons/icon_basement.svg"
+            }, {
+                "name": "bedroom",
+                "url": "img/icons/icon_bedroom.svg"
+            }, {
+                "name": "boiler-switch-off",
+                "url": "img/icons/icon_boiler_switch_off.svg"
+            }, {
+                "name": "cascade",
+                "url": "img/icons/icon_cascade.svg"
+            }, {
+                "name": "ch-off",
+                "url": "img/icons/icon_ch_off.svg"
+            }, {
+                "name": "ch-on",
+                "url": "img/icons/icon_ch_on.svg"
+            }, {
+                "name": "chimney-sweep",
+                "url": "img/icons/icon_chimney_sweep.svg"
+            }, {
+                "name": "cool-producing",
+                "url": "img/icons/icon_cool_producing.svg"
+            }, {
+                "name": "cooling-mode",
+                "url": "img/icons/icon_cooling_mode.svg"
+            }, {
+                "name": "current-temperature",
+                "url": "img/icons/icon_current_temperature.svg"
+            }, {
+                "name": "day",
+                "url": "img/icons/icon_day.svg"
+            }, {
+                "name": "dhw-off",
+                "url": "img/icons/icon_dhw_off_v1.svg"
+            }, {
+                "name": "dhw",
+                "url": "img/icons/icon_dhw_v1.svg"
+            }, {
+                "name": "end-user",
+                "url": "img/icons/icon_end_user.svg"
+            }, {
+                "name": "error",
+                "url": "img/icons/icon_error.svg"
+            }, {
+                "name": "filled-water-the-system",
+                "url": "img/icons/icon_filled_water_the_system.svg"
+            }, {
+                "name": "fireplace",
+                "url": "img/icons/icon_fireplace.svg"
+            }, {
+                "name": "flame",
+                "url": "img/icons/icon_flame.svg"
+            }, {
+                "name": "generic-zone",
+                "url": "img/icons/icon_generic_zone.svg"
+            }, {
+                "name": "heat-producing",
+                "url": "img/icons/icon_heat_producing.svg"
+            }, {
+                "name": "heat-pump",
+                "url": "img/icons/icon_heat_pump.svg"
+            }, {
+                "name": "heating-mode-cooling-mode-menu",
+                "url": "img/icons/icon_heating_mode_cooling_mode_menu.svg"
+            }, {
+                "name": "holiday",
+                "url": "img/icons/icon_holiday.svg"
+            }, {
+                "name": "hot-water-boost",
+                "url": "img/icons/icon_hot_water_boost.svg"
+            }, {
+                "name": "information",
+                "url": "img/icons/icon_information.svg"
+            }, {
+                "name": "installer",
+                "url": "img/icons/icon_installer.svg"
+            }, {
+                "name": "kitchen",
+                "url": "img/icons/icon_kitchen.svg"
+            }, {
+                "name": "living-room",
+                "url": "img/icons/icon_living_room.svg"
+            }, {
+                "name": "manual",
+                "url": "img/icons/icon_manual.svg"
+            }, {
+                "name": "micro-chp",
+                "url": "img/icons/icon_micro_chp.svg"
+            }, {
+                "name": "night",
+                "url": "img/icons/icon_night.svg"
+            }, {
+                "name": "oil-burner",
+                "url": "img/icons/icon_oil_burner.svg"
+            }, {
+                "name": "oil-burner-power-1",
+                "url": "img/icons/icon_oil_burner_power_1.svg"
+            }, {
+                "name": "oil-burner-power-2",
+                "url": "img/icons/icon_oil_burner_power_2.svg"
+            }, {
+                "name": "oil-burner-power-3",
+                "url": "img/icons/icon_oil_burner_power_3.svg"
+            }, {
+                "name": "oil-burner-power-4",
+                "url": "img/icons/icon_oil_burner_power_4.svg"
+            }, {
+                "name": "oil-burner-power-5",
+                "url": "img/icons/icon_oil_burner_power_5.svg"
+            }, {
+                "name": "outdoor-sensor",
+                "url": "img/icons/icon_outdoor_sensor.svg"
+            }, {
+                "name": "pressure",
+                "url": "img/icons/icon_pressure.svg"
+            }, {
+                "name": "pump",
+                "url": "img/icons/icon_pump.svg"
+            }, {
+                "name": "saving-mode",
+                "url": "img/icons/icon_saving_mode.svg"
+            }, {
+                "name": "schedule-1",
+                "url": "img/icons/icon_schedule1.svg"
+            }, {
+                "name": "schedule-2",
+                "url": "img/icons/icon_schedule2.svg"
+            }, {
+                "name": "schedule-3",
+                "url": "img/icons/icon_schedule3.svg"
+            }, {
+                "name": "scheduling",
+                "url": "img/icons/icon_scheduling.svg"
+            }, {
+                "name": "service",
+                "url": "img/icons/icon_service.svg"
+            }, {
+                "name": "set-the-time",
+                "url": "img/icons/icon_set_the_time.svg"
+            }, {
+                "name": "short-temperature-change",
+                "url": "img/icons/icon_short_temperature_change.svg"
+            }, {
+                "name": "solar",
+                "url": "img/icons/icon_solar.svg"
+            }, {
+                "name": "study",
+                "url": "img/icons/icon_study.svg"
+            }, {
+                "name": "summer",
+                "url": "img/icons/icon_summer.svg"
+            }, {
+                "name": "swimming-pool",
+                "url": "img/icons/icon_swimming_pool.svg"
+            }, {
+                "name": "target-temperature",
+                "url": "img/icons/icon_target_temperature.svg"
+            }, {
+                "name": "valve",
+                "url": "img/icons/icon_valve.svg"
+            }, {
+                "name": "winter",
+                "url": "img/icons/icon_winter.svg"
+            }]
+        }, {
+            "name": "icons-system-controller",
+            "icons": [{
+                "name": "all-zones",
+                "url": "img/icons/icon_all_zones.svg"
+            }]
+        }, {
+            "name": "icons-cascade-controller",
+            "icons": [{
+                "name": "all-zones",
+                "url": "img/icons/icon_all_zones.svg"
+            }]
+        }, {
+            "name": "icons-heat-pump",
+            "icons": [{
+                "name": "all-zones",
+                "url": "img/icons/icon_all_zones.svg"
+            }]
+        }, {
+            "name": "icons-cm-portal",
+            "icons": [{
+                "name": "all-zones",
+                "url": "img/icons/icon_all_zones.svg"
+            }]
+        }, {
+            "name": "icons-commissioning-wizard",
+            "icons": [{
+                "name": "all-zones",
+                "url": "img/icons/icon_all_zones.svg"
+            }]
+        }, {
+            "name": "icons-ifttt",
+            "icons": [{
+                "name": "all-zones",
+                "url": "img/icons/icon_all_zones.svg"
+            }]
+        }, {
+            "name": "icons-room-unit",
+            "icons": [{
+                "name": "all-zones",
+                "url": "img/icons/icon_all_zones.svg"
+            }]
+        }]
+    }
+}

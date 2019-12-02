@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icon/circle/default</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/circle/default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M50,96 C75.3958333,96 96,75.3 96,50 C96,24.7 75.3958333,4 50,4 C24.6041667,4 4,24.6041667 4,50 C4,75.3958333 24.6041667,96 50,96 M50,0 C77.6,0 100,22.4 100,50 C100,77.6 77.6,100 50,100 C22.4,100 0,77.6 0,50 C0,22.4 22.4,0 50,0" id="Fill-3" fill="#734875"></path>
+    </g>
+</svg>

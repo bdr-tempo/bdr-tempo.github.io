@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icon/location/default</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/location/default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(22.916667, 18.708333)" fill="#734875">
+            <path d="M27.0837212,9.39990421 L48.75,28.8846077 L48.75,58.1499042 L5.41666667,58.1499042 L5.41666667,28.8846077 L27.0837212,9.39990421 Z M29.1333008,26.9988607 L28.7548828,26.9988607 L21.8212891,29.5501302 L21.8212891,32.0525716 L26.1791992,30.5633138 L26.1791992,44.8333333 L29.1333008,44.8333333 L29.1333008,26.9988607 Z" id="Combined-Shape"></path>
+            <polygon id="Fill-2" points="27.0833333 0.0416666667 0 24.5237239 2.39416667 27.125 27.0833333 4.80709405 51.7725 27.125 54.1666667 24.5237239"></polygon>
+        </g>
+    </g>
+</svg>

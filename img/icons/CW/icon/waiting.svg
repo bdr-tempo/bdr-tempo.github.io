@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st2{mask:url(#mask-2_1_);fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<title>icon/waiting</title>
+<desc>Created with Sketch.</desc>
+<g>
+	<g id="waiting---sandclock" transform="translate(17.000000, 4.000000)">
+		<g id="Clip-2">
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="66" height="92">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="0" y="0" width="66" height="92" id="mask-2_1_">
+			<g class="st0">
+				<polygon id="path-1_1_" class="st1" points="0,0 66,0 66,92 0,92 				"/>
+			</g>
+		</mask>
+		<path id="Fill-1" class="st2" d="M50,24c0,3.1-1.5,6-4.1,7.9L33,40.7l-12.9-8.9c-2.6-1.8-4.1-4.7-4.1-7.9V8.7H50V24z M45.9,60.2
+			c2.6,1.8,4.1,4.7,4.1,7.9v15.2H16.1V68.1c0-3.1,1.5-6,4.1-7.9L33,51.4L45.9,60.2z M58.7,24V8.7H66V0H0.1v8.7h7.3v15.2
+			c0,6,2.9,11.7,7.9,15l9.9,7.1l-10,7c-4.9,3.4-7.9,9-7.9,15v15.2H0V92h65.9v-8.7h-7.3V68.1c0-6-2.9-11.7-7.9-15l-9.9-7l10-7
+			C55.7,35.7,58.7,30,58.7,24L58.7,24z"/>
+	</g>
+</g>
+</svg>

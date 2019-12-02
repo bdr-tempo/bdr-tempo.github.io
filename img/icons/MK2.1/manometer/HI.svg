@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="48px" viewBox="0 0 32 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>manometer/HI</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 32 0 32 48 18 48"></polygon>
+    </defs>
+    <g id="manometer/HI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <path d="M0.721500234,0.5 L18.3465002,47.5 L31.5,47.5 L31.5,0.5 L0.721500234,0.5 Z" id="Rectangle-2" stroke="#000000"></path>
+            <g id="Rectangle-3">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <rect fill="#000000" mask="url(#mask-2)" x="0" y="5" width="32" height="43"></rect>
+            </g>
+            <path d="M0,39.5 L32,39.5" id="Line-Copy" stroke="#000000" stroke-dasharray="2"></path>
+            <path d="M16,39.5 L32,39.5" id="Line-Copy" stroke="#FFFFFF" stroke-dasharray="2"></path>
+            <path d="M0,8.5 L32,8.5" id="Line" stroke="#000000" stroke-dasharray="2"></path>
+            <path d="M4,8.5 L30,8.5" id="Line-Copy" stroke="#FFFFFF" stroke-dasharray="2"></path>
+        </g>
+    </g>
+</svg>

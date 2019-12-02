@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Icon/Fault/LockingError (backup)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="23" cy="23" r="23"></circle>
+    </defs>
+    <g id="Icon/Fault/LockingError-(backup)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(1.000000, 1.000000)">
+            <g id="Oval-8" stroke-width="2">
+                <circle stroke="#353535" stroke-linejoin="square" fill="#FF002F" fill-rule="evenodd" cx="23" cy="23" r="22"></circle>
+                <circle stroke="#FFFFFF" cx="23" cy="23" r="24"></circle>
+            </g>
+            <path d="M17.6272997,12.6913623 L23,18.064 L28.3727003,12.6913623 C29.1537489,11.9103137 30.4200789,11.9103137 31.2011275,12.6913623 L33.3086377,14.7988725 C34.0896863,15.5799211 34.0896863,16.8462511 33.3086377,17.6272997 L27.936,23 L33.3086377,28.3727003 C34.0896863,29.1537489 34.0896863,30.4200789 33.3086377,31.2011275 L31.2011275,33.3086377 C30.4200789,34.0896863 29.1537489,34.0896863 28.3727003,33.3086377 L23,27.936 L17.6272997,33.3086377 C16.8462511,34.0896863 15.5799211,34.0896863 14.7988725,33.3086377 L12.6913623,31.2011275 C11.9103137,30.4200789 11.9103137,29.1537489 12.6913623,28.3727003 L18.064,23 L12.6913623,17.6272997 C11.9103137,16.8462511 11.9103137,15.5799211 12.6913623,14.7988725 L14.7988725,12.6913623 C15.5799211,11.9103137 16.8462511,11.9103137 17.6272997,12.6913623 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

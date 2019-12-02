@@ -1,0 +1,669 @@
+<html>
+
+<head>
+    <title>Tempo - BDR Thermea's Design System</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/tempo-base.css">
+</head>
+
+<body>
+    <template id="color-temp">
+        <li>
+            <div class="swatch"></div>
+            <figcaption>name</figcaption>
+            <figcaption>hex</figcaption>
+            <figcaption>rgb</figcaption>
+        </li>
+    </template>
+    <template id="icon-temp">
+        <li>
+            <img src="img/icons/img-src.svg" />
+            <figcaption>name</figcaption>
+        </li>
+    </template>
+    <section id="intro">
+        <h1>Tempo Design System</h1>
+        <p>Tempo is BDR Thermea's design system for efficiently creating and maintaining consistent user experiences throughout the product portfolio. BDR Thermea harbours many different brands, each with a different character. Tempo provides the single
+            backbone for all digital experiences, for all BDR Thermea's brands. It ensures a consistent quality and reduces design and development efforts, while allowing brands to maintain their own unique character.</p>
+    </section>
+    <nav id="menu" class="">
+        <ul>
+            <li><a href="#intro" class="active">Introduction</a></li>
+            <li><a href="#values">Brand values & principles</a></li>
+            <li><a href="#styleguide">Styleguide</a></li>
+            <li><a href="#icons">Icons</a></li>
+            <li><a href="#components">Components</a></li>
+            <li><a href="#patterns">Patterns</a></li>
+            <li><a href="#patterns">Resources</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <section id="values">
+            <h2>Brand values & principles</h2>
+            <p>These are the BDR Thermea brand values, stemming from the company's vision.</p>
+            <ul>
+                <li>
+                    <h3>Be reliable</h3>
+                    <p>Show design excellence combined with technical excellence by being transparent about what is happening:
+                    </p>
+                    <ul>
+                        <li><strong>actionable advise</strong> Make the user understand what is happening and help them to get on with their task;</li>
+                        <li><strong>least surprise</strong> Some small positive surprises are good, but avoid negative surprises;
+                        </li>
+                        <li><strong>balance design</strong> Find common ground in design and architecture, and keep it consistent;
+                        </li>
+                        <li><strong>architecture stability</strong> Provide an environment where elements are behaving conveniently and intuitive, as opposed to distracting.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Be intuitive</h3>
+                    <p>Make unambiguous choices by applying user-centered thinking and using a smart solutions approach, aiming for a multi-faceted ease of use:</p>
+                    <ul>
+                        <li><strong>to the edges</strong> Make the interface useful for the maximum number of users;
+                        </li>
+                        <li><strong>repetition & rythm</strong> Repeat (visual) elements in patterns for consistency and a feeling of harmony;</li>
+                        <li><strong>fit for purpose</strong> Think about goals and constraints of the user and make the interface suit the purpose;</li>
+                        <li><strong>less is more</strong> Keep elements as minimal as possible.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Be informative</h3>
+                    <p>Communicate sustainability and comfort by providing the right information at the right time:
+                    </p>
+                    <ul>
+                        <li><strong>information scent</strong> Provide clear information in text and visual cues to guide the user on the right path;</li>
+                        <li><strong>context & feedback</strong> Communicate the big picture, and let users know what is happening;
+                        </li>
+                        <li><strong>transition design</strong> Provide the user with relevant information and actions to achieve (future) sustainability;</li>
+                        <li><strong>learnability</strong> The product learns from usage and can respond to this.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Be connected</h3>
+                    <p>Provide seamless solutions and patterns in software and hardware:</p>
+                    <ul>
+                        <li><strong>integrated</strong> Bring together all touch points, including specialisms that are usually considered seperately;</li>
+                        <li><strong>elegance</strong> Even though functionally the interface is complex, the design is remarkably simple;</li>
+                        <li><strong>seamless</strong> There are no interruptions by technical limitations or design issues;
+                        </li>
+                        <li><strong>stay out of the way</strong> Let users do things the way they do, by avoiding unnecessary procedures.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="styleguide">
+            <h2>Styleguide</h2>
+            <p>The following section provides a reference for visual characteristics of BDR Thermea's digital products.
+            </p>
+            <ul>
+                <li id="colors">
+                    <h3>Colors</h3>
+                    <p>In BDR Thermea's digital product colors are defined cross-brand and partly brand-specific. The brand-specific colors are applied as accent alongside dark, medium and light greys to differentiate the user interface between brands.
+                    </p>
+                    <p><strong>Cross-brand:</strong> Colors applied to user interface elements that are shared among brands.
+                    </p>
+                    <ul id="colors-cross-brand">
+                    </ul>
+                    <p><strong>Brand-specific: </strong> Colors applied to user interface elements to distinguish the brands.
+                    </p>
+                    <ul id="colors-brand-specific"></ul>
+                </li>
+                <li>
+                    <h3>Light & Dark themes</h3>
+                    <p>When an appliance is equipped with a color screen, the graphical user interface can be based on both a light or a dark background. Light themes are applied to customer-facing controls, dark themes to controls that are aimed at professional
+                        users, such as service engineers.</p>
+                </li>
+                <li>
+                    <h3>Layout</h3>
+                </li>
+                <li>
+                    <h3>Fonts</h3>
+                    <p>The standard font applied in BDR Thermea user interfaces is Open Sans.</p>
+                </li>
+                <li>
+                    <h3>Typography</h3>
+                </li>
+            </ul>
+        </section>
+        <section id="icons">
+            <h2>Icons</h2>
+            <p>BDR Thermea applies the basic icon set below throughout their product range. Icons in this set are primarily designed for LCD screens. As a result, in some cases some visual detail might get lost when the icon is applied on a pixel-based screen.
+                Additional icons are available to solve this problem. Additional icons are also available for appliance-specific application.</p>
+            <h3>Basic</h3>
+            <ul id="icons-basic">
+            </ul>
+            <h3>Addition: System Controller</h3>
+            <ul id="icons-system-controller">
+                <li>
+                    <img src="img/icons/MK4/Icon/Clock.svg" />
+                    <figcaption>clock</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Icon/Close.svg" />
+                    <figcaption>close</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Icon/Graph.svg" />
+                    <figcaption>graph</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Icon/Next.svg" />
+                    <figcaption>next</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Icon/Open.svg" />
+                    <figcaption>open</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Icon/PageDown.svg" />
+                    <figcaption>page-down</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Icon/PageUp.svg" />
+                    <figcaption>page-up</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Icon/Previous.svg" />
+                    <figcaption>previous</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Icon/Thermometer.svg" />
+                    <figcaption>thermometer</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Icon/WarningBig.svg" />
+                    <figcaption>warning-big</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Map/Gasboiler.svg" />
+                    <figcaption>map-gasboiler</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Map/Storage.svg" />
+                    <figcaption>map-storage</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Map/Tap.svg" />
+                    <figcaption>map-tap</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Map/Zone.svg" />
+                    <figcaption>map-zone</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Symbol/PumpChangeableSpeed.svg" />
+                    <figcaption>symbol-pump-changable-speed</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Symbol/PumpConstant.svg" />
+                    <figcaption>symbol-pump-constant</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Symbol/TempSensor.svg" />
+                    <figcaption>symbol-temperature-sensor</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4/Symbol/Valve.svg" />
+                    <figcaption>symbol-valve</figcaption>
+                </li>
+            </ul>
+            <h3>Addition: Cascade Controller</h3>
+            <ul id="icons-cascade-controller">
+                <li>
+                    <img src="img/icons/MK3/SVG/general.svg" />
+                    <figcaption>general</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK3/SVG/low-loss-header.svg" />
+                    <figcaption>low-loss-header</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK3/SVG/manual-heat-demand.svg" />
+                    <figcaption>manual-heat-demand</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK3/SVG/otc.svg" />
+                    <figcaption>outside-temperature-control</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK3/SVG/power-control.svg" />
+                    <figcaption>power-control</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK3/SVG/product-switching-order.svg" />
+                    <figcaption>product-switching-order</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK3/SVG/pump-management.svg" />
+                    <figcaption>pump-management</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK3/SVG/temperature-control.svg" />
+                    <figcaption>temperature-control</figcaption>
+                </li>
+            </ul>
+            <h3>Addition: Heat Pump</h3>
+            <ul id="icons-heat-pump">
+                <li>
+                    <img src="img/icons/MK4 Heat Pump/Fill 1.svg" />
+                    <figcaption>trash-can</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4 Heat Pump/defrosting.svg" />
+                    <figcaption>defrosting</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/MK4 Heat Pump/information.svg" />
+                    <figcaption>information-circle</figcaption>
+                </li>
+            </ul>
+            <h3>Addition: CM Portal</h3>
+            <ul id="icons-cm-portal">
+                <li>
+                    <img src="img/icons/CM Portal/icon/pencil/black-medium.svg" />
+                    <figcaption>pencil</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CM Portal/icon/plus/black.svg" />
+                    <figcaption>plus</figcaption>
+                </li>
+            </ul>
+            <h3>Addition: Commissioning Wizard</h3>
+            <ul id="icons-commissioning-wizard">
+                <li>
+                    <img src="img/icons/CW/icon/power.svg" />
+                    <figcaption>power</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/report load.svg" />
+                    <figcaption>report-load</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/report save.svg" />
+                    <figcaption>report-save</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/report send.svg" />
+                    <figcaption>report-send</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/schedule/default.svg" />
+                    <figcaption>schedule</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/service-notification/default.svg" />
+                    <figcaption>service-notification</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/still to receive.svg" />
+                    <figcaption>still-to-receive</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/testing validating checklist.svg" />
+                    <figcaption>testing-validating-checklist</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/testing validating checklist copy.svg" />
+                    <figcaption>testing-validating-checklist-error</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/testing validating checklist copy 2.svg" />
+                    <figcaption>error</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/underfloor heating.svg" />
+                    <figcaption>underfloor-heating</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/update/disc/default.svg" />
+                    <figcaption>update-disc</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/update/line/default.svg" />
+                    <figcaption>update-line</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/waiting.svg" />
+                    <figcaption>waiting</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/waiting/default.svg" />
+                    <figcaption>in-progress</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/CW/icon/wrong.svg" />
+                    <figcaption>wrong</figcaption>
+                </li>
+            </ul>
+            <h3>Addition: IFTTT</h3>
+            <ul id="icons-ifttt">
+                <li>
+                    <img src="img/icons/IFTTT/icon/chevron.svg" />
+                    <figcaption>chevron-down</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/IFTTT/Mandatory.svg" />
+                    <figcaption>mandatory</figcaption>
+                </li>
+            </ul>
+            <h3>Addition: Room Unit</h3>
+            <ul id="icons-room-unit">
+                <li>
+                    <img src="img/icons/RU/BDR_IcoonRoomUnit.svg" />
+                    <figcaption>room-unit</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU/SVG/bdr-ru_ic_comfort.svg" />
+                    <figcaption>comfort</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU/SVG/bdr-ru_ic_eco.svg" />
+                    <figcaption>eco</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU/SVG/ic_no-connection_wru.svg" />
+                    <figcaption>no-connection-wru</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU/SVG/ic_no-network_wru.svg" />
+                    <figcaption>no-network-wru</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU/SVG/ic_water-pressure-alert.svg" />
+                    <figcaption>water-pressure-alert</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU/SVG/ic_water-pressure.svg" />
+                    <figcaption>water-pressure</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU/SVG/icon-dial-alt.svg" />
+                    <figcaption>dial</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU/SVG/icon-dial-home-alt.svg" />
+                    <figcaption>dial-home</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU/SVG/icon-dial-rotate-alt.svg" />
+                    <figcaption>dial-rotate</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU/SVG/icon-select-alt.svg" />
+                    <figcaption>dial-select</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU/SVG/icon-timer-alt.svg" />
+                    <figcaption>timer</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon/back.svg" />
+                    <figcaption>back</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon/close/free/default.svg" />
+                    <figcaption>close</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon/cool.svg" />
+                    <figcaption>cool</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon/heat.svg" />
+                    <figcaption>heat</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon/help/circle/alt.svg" />
+                    <figcaption>help</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon/location/alt.svg" />
+                    <figcaption>location</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon/menu/default/alt.svg" />
+                    <figcaption>menu</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon__check.svg" />
+                    <figcaption>check</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon__clock.svg" />
+                    <figcaption>clock</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon__error.svg" />
+                    <figcaption>error</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon__min.svg" />
+                    <figcaption>min</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon__mode_arrows.svg" />
+                    <figcaption>mode-arrows</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon__next.svg" />
+                    <figcaption>arrow-right</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon__plus.svg" />
+                    <figcaption>plus</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon_help.svg" />
+                    <figcaption>help</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon_improvement.svg" />
+                    <figcaption>improvement</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon_new.svg" />
+                    <figcaption>new</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/location.svg" />
+                    <figcaption>location</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/location_small.svg" />
+                    <figcaption>location-small</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/menu.svg" />
+                    <figcaption>menu</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/min.svg" />
+                    <figcaption>min-circle</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/mode-icons/Antifrost mode.svg" />
+                    <figcaption>mode-antifrost</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/mode-icons/Boiler switch off.svg" />
+                    <figcaption>mode-boiler-off</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/mode-icons/Cool producing.svg" />
+                    <figcaption>mode-cool-producing</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/mode-icons/Cooling mode.svg" />
+                    <figcaption>mode-cooling</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/mode-icons/Heat producing.svg" />
+                    <figcaption>mode-heat-producing</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/mode-icons/Heating mode.svg" />
+                    <figcaption>mode-heating</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/mode-icons/Heating mode-Cooling mode menu.svg" />
+                    <figcaption>mode-heating-cooling</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/next-slot-icons/alarmclock.svg" />
+                    <figcaption>alarm-clock</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/next-slot-icons/arrowright.svg" />
+                    <figcaption>arrow-right</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/plus.svg" />
+                    <figcaption>plus-circle</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/schedule_control.svg" />
+                    <figcaption>schedule-disc</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/standard_controls-01.svg" />
+                    <figcaption>triangle-right</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/standard_controls-02.svg" />
+                    <figcaption>disc-circle</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/standard_controls-04.svg" />
+                    <figcaption>box-rounded</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/standard_controls-05.svg" />
+                    <figcaption>check-box-rounded</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/standard_controls-06.svg" />
+                    <figcaption>switch-off</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/standard_controls-07.svg" />
+                    <figcaption>switch-on</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/standard_controls-09.svg" />
+                    <figcaption>schedule-circle</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/wear/ic_inbox.svg" />
+                    <figcaption>inbox</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/wear/open_on_phone.svg" />
+                    <figcaption>open-on-phone</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/zones/family.svg" />
+                    <figcaption>family</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/zones/holiday.svg" />
+                    <figcaption>holiday</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/zones/hotwater_boost.svg" />
+                    <figcaption>hotwater-boost</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/zones/location_home.svg" />
+                    <figcaption>location-home</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/bullet.svg" />
+                    <figcaption>bullet</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon address.svg" />
+                    <figcaption>address</figcaption>
+                </li>
+                <li>
+                    <img src="img/icons/RU App/icon personal details.svg" />
+                    <figcaption>personal-details</figcaption>
+                </li>
+            </ul>
+        </section>
+        <section id="components">
+            <h2>Components</h2>
+            <p>User interface elements applied in common scenarios. The application of components varies depending on the device; a touch screen demands a different approach than a regular screen controlled with physical buttons. And a touch screen on a
+                handheld device like a phone or a tablet is different from a wall-mounted device with touch screen.</p>
+            <ul>
+                <li>
+                    <h3>Button</h3>
+                </li>
+                <li>
+                    <h3>Menu</h3>
+                </li>
+                <li>
+                    <h3>Caroussel</h3>
+                </li>
+                <li>
+                    <h3>System overview</h3>
+                </li>
+                <li>
+                    <h3>Status bar</h3>
+                </li>
+            </ul>
+        </section>
+        <section id="components-mounted-buttons">
+            <h2>Components for mounted screens with physical buttons</h2>
+            <p>User interfaces on the appliance or mounted on the wall that are fitted with a screen and are controlled by physical buttons.</p>
+        </section>
+        <section id="components-mounted-touch">
+            <h2>Components for mounted touchscreens</h2>
+            <p>User interfaces on the appliance or mounted on the wall that are fitted with a touchscreen.</p>
+        </section>
+        <section id="components-apps">
+            <h2>Components for apps</h2>
+            <p>User interfaces for mobile apps.</p>
+        </section>
+        <section id="components-web">
+            <h2>Components for web</h2>
+            <p>User interfaces for web applications.</p>
+        </section>
+        <section id="patterns">
+            <h2>Patterns</h2>
+            <p>Behavioral patterns applied in common scenarios.</p>
+            <ul>
+                <li>
+                    <h3>Modal dialog</h3>
+                    <p>Applied for performing specific actions in a seperate context. Returns to the original context after completing.</p>
+                </li>
+                <li>
+                    <h3>Wizard</h3>
+                    <p>Applied for complex actions that will be performed infrequently.</p>
+                </li>
+                <li>
+                    <h3>Contextual help</h3>
+                    <p>Provides clear and concise explanation of features or status when and where it applies; in the relevant context.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="patterns">
+            <h2>Resources</h2>
+            <p>Download these library files for Sketch or Adobe XD.</p>
+            <ul>
+                <li>
+                    <h3>MK2.1</h3>
+                </li>
+                <li>
+                    <h3>MK3</h3>
+                </li>
+                <li>
+                    <h3>MK4</h3>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="scripts/tempo-base.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icon/loader</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/loader" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="throbber" transform="translate(49.610813, 49.610813) rotate(37.000000) translate(-49.610813, -49.610813) translate(25.610813, 25.610813)">
+            <circle id="Oval" stroke="#575757" cx="24" cy="24" r="16"></circle>
+            <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+            <circle id="Oval" fill="#575757" fill-rule="nonzero" cx="24" cy="8" r="8"></circle>
+        </g>
+    </g>
+</svg>

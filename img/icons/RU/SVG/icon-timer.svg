@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>icon-timer</title>
+  <g id="icon">
+    <g>
+      <rect width="128" height="128" style="fill: none"/>
+      <circle cx="64" cy="72" r="16" style="fill: #fff;opacity: 0.3"/>
+      <path d="M64,32a40,40,0,1,0,40,40A40,40,0,0,0,64,32Zm0,73.33A33.33,33.33,0,1,1,97.33,72,33.33,33.33,0,0,1,64,105.33Z" style="fill: #fff"/>
+      <g>
+        <rect x="60" y="24" width="8" height="12" style="fill: #fff"/>
+        <circle cx="76" cy="20" r="4" style="fill: #fff"/>
+        <circle cx="52" cy="20" r="4" style="fill: #fff"/>
+        <rect x="52" y="16" width="24" height="8" style="fill: #fff"/>
+      </g>
+      <g>
+        <circle cx="64" cy="72" r="4" style="fill: #fff"/>
+        <rect x="60" y="44" width="8" height="28" style="fill: #fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

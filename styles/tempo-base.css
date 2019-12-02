@@ -1,0 +1,280 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #222;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #aaa;
+}
+
+p {
+    line-height: 1.4em;
+    max-width: 50em;
+}
+
+#intro {
+    background-color: #111;
+    background-image: url(../img/bg-grid.png);
+    background-size: 25px;
+    background-attachment: fixed;
+    background-position: bottom center;
+    padding: 10px 20px 0 20px;
+    height: calc(100% - 160px);
+}
+
+#intro>h1 {
+    border-bottom: 3px solid #FFC800;
+    background: url(../img/logo-tempo.svg) no-repeat top left;
+    background-size: 40px;
+    padding: 5px 0 30px 60px;
+    color: white;
+}
+
+#intro>p {
+    font-size: 24px;
+    padding: 20px 0 8em 300px;
+    margin: 0 auto;
+    max-width: 800px;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    width: 300px;
+    top: 140px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 0 20px 20px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-left: 0 solid #1C90E7;
+    transition: border-left-width .3s, padding-left .3s;
+}
+
+nav a.active {
+    border-left-width: 6px;
+    padding-left: 10px;
+}
+
+nav.fixed {
+    position: fixed;
+    top: 2em;
+    background-image: url(../img/logo-tempo.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 20px;
+    padding-top: 40px;
+}
+
+.content {
+    position: absolute;
+    left: 328px;
+    right: 40px;
+}
+
+.content .section {
+    padding: 40px 0;
+}
+
+.content .section>* {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
+
+section:not(:first-child) h2 {
+    border-top: 1px solid #444;
+    padding-top: 1em;
+}
+
+h2+p {
+    font-size: 18px;
+    margin-bottom: 8em;
+}
+
+section ul {
+    padding: 0;
+    list-style: none;
+}
+
+section>ul>li {
+    margin-bottom: 80px;
+}
+
+section ul strong {
+    display: block;
+    color: white;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+section li {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: white;
+}
+
+h3+p {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/*VALUES*/
+
+#values>ul>li {
+    display: inline-block;
+    max-width: 300px;
+    padding-right: 80px;
+    vertical-align: top;
+}
+
+#values h3,
+#values h3+p {
+    border-left: 6px solid;
+    padding-left: 10px;
+}
+
+#values li:nth-child(1) h3,
+#values li:nth-child(1) h3+p {
+    border-left-color: #1C90E7;
+}
+
+#values li:nth-child(2) h3,
+#values li:nth-child(2) h3+p {
+    border-left-color: #0FBC80;
+}
+
+#values li:nth-child(3) h3,
+#values li:nth-child(3) h3+p {
+    border-left-color: #FFC800;
+}
+
+#values li:nth-child(4) h3,
+#values li:nth-child(4) h3+p {
+    border-left-color: #E73E17;
+}
+
+#values>ul>li>ul>li {
+    margin-left: 1em;
+}
+
+#values>ul>li>ul>li::before {
+    content: "\25aa";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+#values>ul>li:nth-child(1)>ul>li::before {
+    color: #1C90E7;
+}
+
+#values>ul>li:nth-child(2)>ul>li::before {
+    color: #0FBC80;
+}
+
+#values>ul>li:nth-child(3)>ul>li::before {
+    color: #FFC800;
+}
+
+#values>ul>li:nth-child(4)>ul>li::before {
+    color: #E73E17;
+}
+
+#values strong {
+    display: inline-block;
+}
+
+
+/*COLORS*/
+
+#colors strong {
+    display: inline-block;
+}
+
+#colors ul {
+    list-style: none;
+    max-width: 870px;
+}
+
+#colors li {
+    display: inline-block;
+    width: 100px;
+    margin-right: 20px;
+}
+
+#colors .swatch {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+
+/*ICONS*/
+
+#icons ul {
+    max-width: 870px;
+}
+
+#icons li {
+    display: inline-block;
+    border-radius: 2px;
+    margin-right: 40px;
+    margin-bottom: 0;
+    width: 100px;
+    height: 160px;
+    vertical-align: top;
+}
+
+#icons img {
+    background-color: #eee;
+    border-radius: 3px;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st2{mask:url(#mask-2_1_);fill-rule:evenodd;clip-rule:evenodd;}
+	.st3{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st4{mask:url(#mask-2_2_);fill-rule:evenodd;clip-rule:evenodd;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<title>icon/report send</title>
+<desc>Created with Sketch.</desc>
+<g>
+	<g id="Send-report" transform="translate(6.000000, 26.000000)">
+		<g id="Group-4">
+			<g id="Clip-2">
+			</g>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="22.2" y="0.1" width="66.6" height="48.9">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="22.2" y="0.1" width="66.6" height="48.9" id="mask-2_1_">
+				<g class="st0">
+					<polygon id="path-1_1_" class="st1" points="0.1,0.1 88.7,0.1 88.7,48.9 0.1,48.9 					"/>
+				</g>
+			</mask>
+			<path id="Fill-1" class="st2" d="M31.1,13L55.5,30L79.9,13v27.1H31.1V13z M70.1,9L55.5,19.1L40.8,9H70.1z M22.2,49h66.6V0.1H22.2
+				V49z"/>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="0.1" y="0.1" width="17.6" height="8.9">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="0.1" y="0.1" width="17.6" height="8.9" id="mask-2_2_">
+				<g class="st3">
+					<polygon id="path-1_2_" class="st1" points="0.1,0.1 88.7,0.1 88.7,48.9 0.1,48.9 					"/>
+				</g>
+			</mask>
+			<polygon id="Fill-3" class="st4" points="0.1,9 17.7,9 17.7,0.1 0.1,0.1 			"/>
+		</g>
+		<polygon id="Fill-5" class="st5" points="5,22 18,22 18,13 5,13 		"/>
+		<polygon id="Fill-6" class="st5" points="9,36 18,36 18,27 9,27 		"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>bdr-ru_ic_comfort</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="icon">
+      <g>
+        <rect width="128" height="128" style="fill: none"/>
+        <circle cx="24" cy="64" r="8"/>
+        <circle cx="104" cy="64" r="8"/>
+        <rect x="24" y="64" width="80" height="16" rx="8"/>
+        <rect x="32" y="80" width="8" height="8"/>
+        <rect x="88" y="80" width="8" height="8"/>
+        <path d="M96,40H32a8,8,0,0,0-8,8v4a12,12,0,0,1,10.9,7H93.1A12,12,0,0,1,104,52V48A8,8,0,0,0,96,40Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

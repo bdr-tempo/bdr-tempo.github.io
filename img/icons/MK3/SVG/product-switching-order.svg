@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>product-switching-order</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Laag_2" data-name="Laag 2">
+      <g>
+        <rect width="32" height="32" style="fill: none"/>
+        <g>
+          <rect x="2" y="3" width="19" height="6"/>
+          <path d="M2,19H21V13H2Zm2-4H19v2H4Z"/>
+          <path d="M2,29H21V23H2Zm2-4H19v2H4Z"/>
+          <polygon points="23 5 23 7 28 7 28 20 26 20 26 16.59 21.59 21 26 25.41 26 22 30 22 30 5 23 5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

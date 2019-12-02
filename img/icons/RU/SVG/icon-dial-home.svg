@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>icon-dial-home</title>
+  <g id="icon">
+    <g>
+      <rect width="128" height="128" style="fill: none"/>
+      <path d="M64,16a48,48,0,1,0,48,48A48,48,0,0,0,64,16Zm0,88a40,40,0,1,1,40-40A40,40,0,0,1,64,104Z" style="fill: #fff;opacity: 0.3"/>
+      <path d="M40,80a2,2,0,0,0-1.62,3.18,32,32,0,0,0,51.15.07A2,2,0,0,0,87.9,80Z" style="fill: #fff"/>
+      <path d="M96,64a34.21,34.21,0,0,0-1.14-8.67A31.31,31.31,0,0,0,72.05,33,32.06,32.06,0,0,0,32,64v.17A8,8,0,0,0,40,72H88A8,8,0,0,0,96,64Z" style="fill: #fff;opacity: 0.3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>otc</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Laag_2" data-name="Laag 2">
+      <g>
+        <rect width="32" height="32" style="fill: none"/>
+        <g>
+          <path d="M26,21V10a3,3,0,0,0-6,0V21a5,5,0,0,0-2,4,5,5,0,0,0,10,0A5,5,0,0,0,26,21ZM22,10a1,1,0,0,1,2,0v9H22Z"/>
+          <polygon points="0.94 5.64 2.36 7.06 4 5.41 12 13.41 12 30 14 30 14 12.59 4 2.59 0.94 5.64"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Icon/PageUpInactive</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/PageUpInactive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.401098279">
+        <polyline id="Path-5-Copy" stroke="#F5F5F5" stroke-width="2" transform="translate(12.000000, 4.000000) scale(1, -1) translate(-12.000000, -4.000000) " points="6 1 12.0104076 7 18 1"></polyline>
+        <rect id="Rectangle-2-Copy-3" fill="#F5F5F5" x="8" y="18" width="8" height="2"></rect>
+        <rect id="Rectangle-2-Copy-5" fill="#F5F5F5" x="8" y="22" width="8" height="2"></rect>
+        <rect id="Rectangle-2-Copy-4" fill="#F5F5F5" x="8" y="14" width="8" height="2"></rect>
+    </g>
+</svg>

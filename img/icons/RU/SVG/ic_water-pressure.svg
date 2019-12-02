@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>ic_water-pressure</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <g>
+        <g>
+          <path d="M64,16a48,48,0,1,0,48,48A48,48,0,0,0,64,16Zm0,92a44,44,0,1,1,44-44A44,44,0,0,1,64,108Z"/>
+          <path d="M84,71a30.63,30.63,0,0,1-20-7,30.63,30.63,0,0,0-20-7,31.82,31.82,0,0,0-20,7,40,40,0,0,0,80,0v0A31.82,31.82,0,0,1,84,71Z"/>
+        </g>
+        <rect width="128" height="128" style="fill: none"/>
+      </g>
+    </g>
+  </g>
+</svg>
