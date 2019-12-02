@@ -1,0 +1,2 @@
+# bdr-tempo.github.io
+Tempo is BDR Thermea's design system for efficiently creating and maintaining consistent user experiences throughout the product portfolio. BDR Thermea harbours many different brands, each with a different character. Tempo provides the single backbone for all digital experiences, for all BDR Thermea's brands. It ensures a consistent quality and reduces design and development efforts, while allowing brands to maintain their own unique character.
