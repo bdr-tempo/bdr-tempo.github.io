@@ -150,6 +150,10 @@ h3+p {
     margin-bottom: 40px;
 }
 
+h4 {
+    margin-top: 48px;
+}
+
 figcaption {
     font-size: 12px;
     text-align: center;
@@ -192,11 +196,13 @@ figcaption {
     border-left-color: #E73E17;
 }
 
-#values>ul>li>ul>li {
+#values>ul>li>ul>li,
+#components>ul>li>ul>li {
     margin-left: 1em;
 }
 
-#values>ul>li>ul>li::before {
+#values>ul>li>ul>li::before,
+#components>ul>li>ul>li::before {
     content: "\25aa";
     /* Add content: \2022 is the CSS Code/unicode for a bullet */
     font-weight: bold;
@@ -213,7 +219,8 @@ figcaption {
     color: #1C90E7;
 }
 
-#values>ul>li:nth-child(2)>ul>li::before {
+#values>ul>li:nth-child(2)>ul>li::before,
+#components>ul>li>ul>li::before {
     color: #0FBC80;
 }
 
@@ -225,7 +232,8 @@ figcaption {
     color: #E73E17;
 }
 
-#values strong {
+#values strong,
+#components strong {
     display: inline-block;
 }
 
@@ -277,4 +285,19 @@ figcaption {
     border-radius: 3px;
     width: 100px;
     height: 100px;
+}
+
+
+/*COMPONENTS*/
+
+#components ul ul {
+    max-width: 600px;
+}
+
+#components .examples img {
+    max-width: 200px;
+    max-height: 200px;
+    border: 2px solid #5E5E5E;
+    border-radius: 3px;
+    margin-right: 10px;
 }

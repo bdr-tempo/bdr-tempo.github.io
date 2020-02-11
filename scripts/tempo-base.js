@@ -2,6 +2,7 @@ var nav = document.getElementsByTagName("nav")[0];
 var sections = document.getElementsByTagName("section");
 var colors = document.getElementById("colors").getElementsByClassName("swatch");
 var icons = document.getElementById("icons").getElementsByTagName("img");
+var examples = document.getElementById("components").getElementsByTagName("img");
 
 var posNav = function() {
     if (document.body.scrollTop > 70) {
@@ -89,6 +90,11 @@ function initIcons(json) {
 var initDownloadable = function() {
     for (var i = 0; i < icons.length; i++) {
         icons[i].onclick = function() {
+            window.open(this.getAttribute("src"));
+        }
+    }
+    for (var i = 0; i < examples.length; i++) {
+        examples[i].onclick = function() {
             window.open(this.getAttribute("src"));
         }
     }
